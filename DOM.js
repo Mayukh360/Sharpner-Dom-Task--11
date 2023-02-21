@@ -23,7 +23,8 @@ function saveToLocalStorage(event){
     // localStorage.setItem('name', name);
     // localStorage.setItem('email', email);
     // localStorage.setItem('phonenumber', phonenumber);
-    
+    const localStorageContent= localStorage.getItem('usertDetails')
+  
     const obj={
         name: name,
         email: email,
